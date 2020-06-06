@@ -1,6 +1,11 @@
 #include <iostream>
 using namespace std;
 int main () {
-cout << dfhhj << endl;
-return 0;
+    int a = 50 , b = 0;
+    while (a <= 100) {
+        b += a;
+        ++a;
+        cout << b << endl;
+    }
+    return 0;
 }
