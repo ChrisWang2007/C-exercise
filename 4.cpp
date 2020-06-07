@@ -1,11 +1,10 @@
 #include <iostream>
 using namespace std;
 int main () {
-    int a = 50 , b = 0;
-    while (a <= 100) {
+    int b;
+    if (int a = 50, a <= 100, ++a) {
         b += a;
-        ++a;
+        cout << b << endl;
     }
-    cout << b << endl;
     return 0;
 }
