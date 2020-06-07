@@ -4,10 +4,10 @@ int main () {
     int a , b;
     cout << "请输入两个整数" << endl;
     cin >> a >> b;
-    if (,a <= b, ++a) {
+    for (; a < b; ++a) {
         cout << a << endl;
     }
-    if (,b <= a, ++b) {
+    for (; b <= a; ++b) {
         cout << b << endl;
     }
     return 0;
